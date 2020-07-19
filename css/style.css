@@ -9,13 +9,33 @@
 
 html,
 body {								/* вот это для закрепления футера внизу страницы */
-  font-size: 12pt;
+  font-size: 14pt;
   font-family: Arial;
   line-height: 1.5;
 
   padding: none;
   height: 100%;
   background-color: #939393;
+}
+
+a:link {
+  color: #e8e7e7;
+}
+a:visited {
+  color: #EF7D55;
+}
+a:hover {
+  color: #154088;
+}
+a:active {
+  color: #497DDD;
+}
+
+a {text-decoration: none;}
+
+.p_class{
+  margin-bottom: 1.5em;
+  font-size: 16px;
 }
 
 .wrapper{
@@ -65,6 +85,13 @@ body {								/* вот это для закрепления футера вни
 .img_in_text{
   height: 40px;
   width: 40px;
+  float: left;
+  margin-right: 10px;
+}
+
+.img_in_text_1{
+  height: 35px;
+  width: 35px;
   float: left;
   margin-right: 10px;
 }
@@ -164,6 +191,17 @@ body {								/* вот это для закрепления футера вни
   min-width: 250px;
 }
 
+.text_in_header_8 {  
+  color:#000000;
+	font-size: 18px;
+  text-align:right;   
+  margin-top: none;
+  margin-bottom: 20px;
+  padding: none;
+  min-width: 220px;
+
+}
+
 
 
 .main{
@@ -178,14 +216,76 @@ body {								/* вот это для закрепления футера вни
 
 .row{
   background-color: #ffffff;
-  max-width: 1000px;   /* максимальная ширина окошка, а дальше хоть расширяй хоть нет */
-  /*opacity: 10%;*/
   width: auto;
   height: auto;
-  margin: auto;
-  padding: 10px;     
+  margin: 25px;
+  padding: none;     
   padding-top: none; 
   overflow: auto; 
+}
+
+.blok_1{
+  /*background-color: #ffffe7;
+  border: 1px solid #000000;*/
+  max-width: 750px;
+  width: auto;
+  height: auto;
+  padding: 10px;
+  float: left;
+}
+
+.blok_2{
+  /*background-color: #ffffe7;*/
+  border-left: 1px solid #000000;
+  max-width: 250px;
+  width: auto;
+  height: auto;
+  padding: 10px;
+  float: right;
+}
+
+.blok_3{
+  /*background-color: #f2ffe7;
+  border: 1px solid #000000;*/
+  max-width: 500px;
+  width: auto;
+  height: auto;
+  padding: 10px;
+  margin-top: 50px;
+  float: left;
+}
+
+.blok_4{
+  /*background-color: #f2ffe7;
+  border: 1px solid #000000;*/
+  max-width: 500px;
+  width: auto;
+  height: auto;
+  padding: 10px;
+  margin-top: 50px;
+  float: right;
+}
+
+.blok_5{
+  /*background-color: #f2ffe7;
+  border: 1px solid #000000;*/
+  max-width: 500px;
+  width: auto;
+  height: auto;
+  padding: 10px;
+  margin-top: 50px;
+  float: left;
+}
+
+.blok_6{
+  /*background-color: #f2ffe7;
+  border: 1px solid #000000;*/
+  max-width: 500px;
+  width: auto;
+  height: auto;
+  padding: 10px;
+  margin-top: 50px;
+  float: right;
 }
 
 
