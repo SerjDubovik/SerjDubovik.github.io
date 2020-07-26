@@ -96,6 +96,12 @@ a {text-decoration: none;}
   margin-right: 10px;
 }
 
+.img_in_text_2{
+  height: 80px;
+  width: 80px;
+  float: left;
+}
+
 .img_foto {
   height: 200px;
   width: auto;
@@ -286,6 +292,14 @@ a {text-decoration: none;}
   padding: 10px;
   margin-top: 50px;
   float: right;
+}
+
+.blok_in_6{
+  width: 200px;
+  height: auto;  
+  margin: 10px;
+  margin-bottom: 50px;
+  float: left;
 }
 
 
